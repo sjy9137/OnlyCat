@@ -4,7 +4,9 @@ using UnityEngine;
 using UnityEngine.UI;
 
 public class UIManager : MonoBehaviour {
-	
+
+	// UI매니져인데 너무 대충 만들어서 지워도 될정도의 스크립트. 엄청 비효율적.
+
 	private float frame = 1f;
 
 	private Vector3 StartPos;
@@ -17,11 +19,6 @@ public class UIManager : MonoBehaviour {
 	public GameObject secondbject;
 	public GameObject thirdObject;
 	//public GameObject allObject;
-
-
-
-
-
 
 	void Update () {
 
@@ -58,14 +55,11 @@ public class UIManager : MonoBehaviour {
 		secondbject.SetActive (false);
 		thirdObject.SetActive(false);
 	}
+
 	public void secondopenfx(){
 		firstObject.SetActive (false);
 		secondbject.SetActive (true);
 		thirdObject.SetActive(false);
-
-
-	
-
 	}
 
 

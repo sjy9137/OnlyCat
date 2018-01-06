@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class stageneko : MonoBehaviour {
 
+	//고양이 획득씬에서 고양이 얻는 스크립트. 스와이프를 통해 고양이 획득.
+
 	public GameObject stage1;
 	public GameObject stage2;
 	public GameObject[] Player = new GameObject[6];
@@ -31,8 +33,8 @@ public class stageneko : MonoBehaviour {
 
 	void Start () {
 		Screen.SetResolution(1080,1920,true);
-
-//		curcur = DataManager.Instance.curstageNb;
+	
+		//curcur = DataManager.Instance.curstageNb;
 
 		if (curcur>=2) {
 
@@ -76,9 +78,6 @@ public class stageneko : MonoBehaviour {
 			}
 
 		}
-
-
-
 	}
 
 

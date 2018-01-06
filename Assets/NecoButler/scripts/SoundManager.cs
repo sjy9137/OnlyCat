@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class SoundManager : MonoBehaviour {
 
+	//사운드 매니져. 싱글턴. 
+
 	private static SoundManager instance;
 	public static SoundManager Instance{
 		get{ return instance; }
