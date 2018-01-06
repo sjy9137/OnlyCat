@@ -1,0 +1,18 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\NecoButler\scripts\CatBehaviour.cs">
+    <Files>
+      <File FileName="Assets\NecoButler\scripts\CatBehaviour.cs" Line="35" Column="32" />
+      <File FileName="Assets\NecoButler\scripts\PoolableObject.cs" Line="13" Column="4" />
+      <File FileName="Assets\NecoButler\scripts\DataManager.cs" Line="174" Column="27" />
+      <File FileName="Assets\NecoButler\scripts\UIManager.cs" Line="17" Column="1" />
+      <File FileName="Assets\NecoButler\scripts\ObjectPool.cs" Line="11" Column="23" />
+      <File FileName="Assets\NecoButler\scripts\ObjectPoolManager.cs" Line="32" Column="9" />
+      <File FileName="Assets\NecoButler\scripts\IListener.cs" Line="4" Column="39" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
