@@ -7,7 +7,6 @@ public class PoolableObject : MonoBehaviour,IListener {
 	protected ObjectPool<PoolableObject> Pool;
 
 	public void OnEvent(EVENT_TYPE eventType, Component sender, Object param = null ){
-
 		if (gameObject.activeInHierarchy) {
 			Push ();
 		}

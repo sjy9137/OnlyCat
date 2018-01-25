@@ -111,7 +111,7 @@ MonoBehaviour:
   m_MinSize: {x: 917, y: 421}
   m_MaxSize: {x: 22012, y: 10021}
   vertical: 0
-  controlID: 124
+  controlID: 65
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -417,7 +417,7 @@ MonoBehaviour:
     height: 233
   m_SceneLighting: 1
   lastFramingTime: 809.6522617885478
-  m_2DMode: 0
+  m_2DMode: 1
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
@@ -438,25 +438,25 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
     yGrid:
-      m_Target: 1
-      speed: 2
-      m_Value: 1
-    zGrid:
       m_Target: 0
       speed: 2
       m_Value: 0
+    zGrid:
+      m_Target: 1
+      speed: 2
+      m_Value: 1
   m_Rotation:
-    m_Target: {x: 0.15972614, y: -0.19900393, z: 0.03289343, w: 0.9663349}
+    m_Target: {x: 0, y: 0, z: 0, w: 1}
     speed: 2
-    m_Value: {x: 0.15972614, y: -0.19900393, z: 0.03289343, w: 0.9663349}
+    m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
     m_Target: 6.890466
     speed: 2
     m_Value: 6.890466
   m_Ortho:
-    m_Target: 0
+    m_Target: 1
     speed: 2
-    m_Value: 0
+    m_Value: 1
   m_LastSceneViewRotation: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
   m_LastSceneViewOrtho: 0
   m_ReplacementShader: {fileID: 0}
@@ -505,10 +505,10 @@ MonoBehaviour:
     - {x: 443.40002, y: 90.599976}
     - {x: 443.40002, y: 110.599976}
   m_PreviewAnimator: {fileID: 0}
-  m_AnimatorController: {fileID: 9100000, guid: 6fd321851ea03144d88b0f00b73acd5c,
+  m_AnimatorController: {fileID: 9100000, guid: 633050860056ade429e2fe00b0e51821,
     type: 2}
   m_BreadCrumbs:
-  - m_Target: {fileID: 1107108335725478806, guid: 6fd321851ea03144d88b0f00b73acd5c,
+  - m_Target: {fileID: 1107584333116945786, guid: 633050860056ade429e2fe00b0e51821,
       type: 2}
     m_ScrollPosition: {x: 0, y: 0}
   stateMachineGraph: {fileID: 0}
@@ -577,10 +577,10 @@ MonoBehaviour:
     width: 260
     height: 397
   m_TreeViewState:
-    scrollPos: {x: 0, y: 0}
+    scrollPos: {x: 0, y: 120}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 4aaaffff1aabffff9eafffff3ec6ffffe4fbfffff4ffffff0000000060280000b6280000be280000c2280000cc280000f82800000c2900001e290000282900003829000060290000642900007a290000a0290000aa290000b8290000c4290000d8290000fa290000102a0000222a0000262a0000362a0000402a00006c2a00008e2a0000982a00008a33000096330000e433000054340000
+    m_ExpandedIDs: e4fbffff000000007a290000a02900006c2a0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -666,18 +666,18 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/NecoButler/Scene
+    - Assets/NecoButler/scripts
   m_ViewMode: 1
   m_StartGridSize: 61
   m_LastFolders:
-  - Assets/NecoButler/Scene
+  - Assets/NecoButler/scripts
   m_LastFoldersGridSize: 61
   m_LastProjectPath: C:\Users\YES\Documents\GitHub\OnlyCat
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: c0270000
-    m_LastClickedID: 10176
+    m_SelectedIDs: e8260000
+    m_LastClickedID: 9960
     m_ExpandedIDs: 00000000ce240000182600005c26000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -733,7 +733,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: 222500002030000066340000463900002025000064380000c2410000665100007a2a0000f46100007e250000da2f000004300000a63800000a260000384a000026760000049800000098000006330000b026000044330000202700001aba000066d300006ed3000056a20000fa9802009a270000484f0000c0250000b660000026460000d62800002829000030290000fa2a0000e0540000f054000052420000f6270000ec2d0000b82d0000362c0000ea2800000a250000d23000004aa20000c429000040370000802a00006c420000d23a00008a280000eae8000056280000be950100e4590200f03c0000ec290000c0280000de4a0000ac310000943100000000000036260000
     m_RenameOverlay:
       m_UserAcceptedRename: 0

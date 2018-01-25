@@ -9,23 +9,24 @@ public class DataManager : MonoBehaviour {
 	public static DataManager Instance{
 		get{ return instance; }
 	}
+	// 싱글턴.
 
 	public int NekoCoin;
-
-
+	// 현재 소지하고 있는 냥코.
 	public int TouchCoin=1;
-
-
-
+	// 터치할때마다 늘어나는 냥코.
 	public int HomeLevel=1;
+	// 캣타워의 레벨.
 	public int AutoCoin=5;
+	// 자동으로 늘어나는 냥코.
 	public int curNecoCount = 1;
+	// 현재 고양이 수.
 	public int availableNecoCount=10;
+	// 수집 가능한 고양이 수.
 	public int WeaponLevel = 1;
+	// 현재 고양이풀의 레벨.
 	public int StageLevel = 1;
-	public int curstageNb;
-
-	private Vector3 pos;
+	// 떠날 수 있는 수집 스테이지 레벨.
 
 	private Text CurNekoCoinText;
 	private Text AutoNekoCoinText;
@@ -34,8 +35,9 @@ public class DataManager : MonoBehaviour {
 	private Text CurNecoText;
 
 	public GameObject AutoCoinObject;
+	// 자동으로 늘어나는 냥코의 보여지는 오브젝트.
 	public GameObject toucheffect;
-
+	// 터치했을시 늘어나는 냥코의 보여지는 오브젝트.
 
 	private GameObject cattowerobject;
 	private SpriteRenderer cattower_sr;
