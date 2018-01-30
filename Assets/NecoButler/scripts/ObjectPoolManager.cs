@@ -3,6 +3,8 @@ using UnityEngine;
 
 public class ObjectPoolManager : MonoBehaviour{
 
+	// 오브젝트풀 매니저. 고양이들 풀링.
+
 	private static ObjectPoolManager instance;
 	public static ObjectPoolManager Instance{
 		get{ return instance; }
