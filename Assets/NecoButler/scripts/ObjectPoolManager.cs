@@ -10,12 +10,12 @@ public class ObjectPoolManager : MonoBehaviour{
 		get{ return instance; }
 	}
 
-	public CatBehaviour cat1Pref;
-	public ObjectPool<PoolableObject> cat1Pool;
-	public CatBehaviour cat2Pref;
-	public ObjectPool<PoolableObject> cat2Pool;
-	public CatBehaviour cat3Pref;
-	public ObjectPool<PoolableObject> cat3Pool;
+	public CatBehaviour catPref1;
+	public ObjectPool<PoolableObject> catPool1;
+	public CatBehaviour catPref2;
+	public ObjectPool<PoolableObject> catPool2;
+	public CatBehaviour catPref3;
+	public ObjectPool<PoolableObject> catPool3;
 
 	void Awake(){
 
@@ -28,29 +28,29 @@ public class ObjectPoolManager : MonoBehaviour{
 	}
 
 	void Start(){
-		cat1Pool = new ObjectPool<PoolableObject> (10, () => {
-			CatBehaviour temp = Instantiate (cat1Pref);
+		catPool1 = new ObjectPool<PoolableObject> (10, () => {
+			CatBehaviour temp = Instantiate (catPref1);
 			temp.transform.SetParent (transform);
-			temp.Create(cat1Pool);
+			temp.Create(catPool1);
 			return temp;
 		});
-		cat1Pool.Allocate ();
+		catPool1.Allocate ();
 
-		cat2Pool = new ObjectPool<PoolableObject> (10, () => {
-			CatBehaviour temp = Instantiate (cat2Pref);
+		catPool2 = new ObjectPool<PoolableObject> (10, () => {
+			CatBehaviour temp = Instantiate (catPref2);
 			temp.transform.SetParent (transform);
-			temp.Create(cat2Pool);
+			temp.Create(catPool2);
 			return temp;
 		});
-		cat2Pool.Allocate ();
+		catPool2.Allocate ();
 
-		cat3Pool = new ObjectPool<PoolableObject> (10, () => {
-			CatBehaviour temp = Instantiate (cat3Pref);
+		catPool3 = new ObjectPool<PoolableObject> (10, () => {
+			CatBehaviour temp = Instantiate (catPref3);
 			temp.transform.SetParent (transform);
-			temp.Create(cat3Pool);
+			temp.Create(catPool3);
 			return temp;
 		});
-		cat3Pool.Allocate ();
+		catPool3.Allocate ();
 	}
 
 

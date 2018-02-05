@@ -48,14 +48,16 @@
   <ItemGroup>
      <Compile Include="Assets\NecoButler\scripts\CatBehaviour.cs" />
      <Compile Include="Assets\NecoButler\scripts\DataManager.cs" />
+     <Compile Include="Assets\NecoButler\scripts\EventManager.cs" />
+     <Compile Include="Assets\NecoButler\scripts\HomeNeko.cs" />
      <Compile Include="Assets\NecoButler\scripts\IListener.cs" />
      <Compile Include="Assets\NecoButler\scripts\ObjectPool.cs" />
      <Compile Include="Assets\NecoButler\scripts\ObjectPoolManager.cs" />
      <Compile Include="Assets\NecoButler\scripts\PoolableObject.cs" />
      <Compile Include="Assets\NecoButler\scripts\SceneController.cs" />
      <Compile Include="Assets\NecoButler\scripts\SoundManager.cs" />
+     <Compile Include="Assets\NecoButler\scripts\StageNeko.cs" />
      <Compile Include="Assets\NecoButler\scripts\UIManager.cs" />
-     <Compile Include="Assets\NecoButler\scripts\stageneko.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/unity5.6.1/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>

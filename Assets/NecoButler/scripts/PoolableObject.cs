@@ -7,13 +7,17 @@ public class PoolableObject : MonoBehaviour,IListener {
 	protected ObjectPool<PoolableObject> Pool;
 
 	public void OnEvent(EVENT_TYPE eventType, Component sender, Object param = null ){
+
+
 		if (gameObject.activeInHierarchy) {
 			Push ();
 		}
 	}
 	public virtual void Start(){
-		//EventManager.Instance.AddListener (EVENT_TYPE.Restart, this);
+//		EventManager.Instance.AddListener (EVENT_TYPE.PushObj, this);
+
 	}
+
 
 	public virtual void Create (ObjectPool<PoolableObject> pool){
 		Pool = pool;

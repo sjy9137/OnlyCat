@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class stageneko : MonoBehaviour {
+public class StageNeko : MonoBehaviour {
 
 	//고양이 획득씬에서 고양이 얻는 스크립트. 스와이프를 통해 고양이 획득.
 
@@ -15,8 +15,6 @@ public class stageneko : MonoBehaviour {
 	//스테이지 플레이시 터치해야하는 물음표 고양이.
 	private int mand;
 	//물음표 고양이 랜덤 변수.
-	private int curcur=1;
-	//현재 스테이지.
 
 	private int patternNb;
 
@@ -42,11 +40,11 @@ public class stageneko : MonoBehaviour {
 		Screen.SetResolution(1080,1920,true);
 		//curcur = DataManager.Instance.curstageNb;
 	
-		if (curcur==2) {
+		if (HomeNeko.Instance.StageNumber==2) {
 			stage2.SetActive (true);
 			StartCoroutine (Stage2Coroutine ());
 		}
-		if (curcur == 1) {
+		if (HomeNeko.Instance.StageNumber== 1) {
 			stage1.SetActive (true);
 			StartCoroutine (Stage1Coroutine ());
 		}
@@ -106,28 +104,6 @@ public class stageneko : MonoBehaviour {
 		StartCoroutine (onesecondCoroutine ());
 		patternNb = 1;
 
-		/*
-		if (curcur == 1) {
-			if (randrover <= 70) {
-				patternNb = 2;
-
-			} else {
-				patternNb = 6;
-			}
-		}
-
-		if (curcur == 2) {
-			if (randrover <= 50) {
-				patternNb = 4;
-
-			} else if (randrover<=80){
-				patternNb = 6;
-			}else{
-				patternNb = 6;
-			}
-
-		}
-*/
 		Debug.Log ("!");
 
 	}
@@ -159,12 +135,18 @@ public class stageneko : MonoBehaviour {
 		if (randrover >= 70) {
 			WinNekoimg_sprite = Resources.Load<Sprite> ("etc/" + "3_sleeping");
 			WinNekoimg_ig.sprite = WinNekoimg_sprite;
+			DataManager.Instance.Neko [2]++;
+			PlayerPrefs.SetInt ("Neko2", DataManager.Instance.Neko [2]);
 		} else if (randrover >= 40) {
 			WinNekoimg_sprite = Resources.Load<Sprite> ("etc/" + "2_sleeping");
 			WinNekoimg_ig.sprite = WinNekoimg_sprite;
+			DataManager.Instance.Neko [1]++;
+			PlayerPrefs.SetInt ("Neko1", DataManager.Instance.Neko [1]);
 		} else {
 			WinNekoimg_sprite = Resources.Load<Sprite> ("etc/" + "1_sleeping");
 			WinNekoimg_ig.sprite = WinNekoimg_sprite;
+			DataManager.Instance.Neko [0]++;
+			PlayerPrefs.SetInt ("Neko0", DataManager.Instance.Neko [0]);
 		}
 	}
 

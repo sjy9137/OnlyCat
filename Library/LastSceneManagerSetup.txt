@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/NecoButler/Scene/jemjem.unity
+- path: Assets/NecoButler/Scene/open.unity
   isLoaded: 1
   isActive: 1

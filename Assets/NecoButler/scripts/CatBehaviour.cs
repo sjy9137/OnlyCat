@@ -25,7 +25,9 @@ public class CatBehaviour : PoolableObject {
 		RandomAnifx ();
 		// 시작하자마자 애니메이션 재생 하도록 했는데 방법 재고 필요.
 		Debug.Log (Vector3.left);
+		EventManager.Instance.AddListener (EVENT_TYPE.PushObj, this);
 	}
+
 
 	void Update () {
 
@@ -36,6 +38,16 @@ public class CatBehaviour : PoolableObject {
 		//목표 포인트로 보간법으로 움직임.
 		frame += Time.deltaTime*0.7f;
 	}
+
+	public void OnEvent(EVENT_TYPE eventType, Component sender, Object param = null ){
+		switch (eventType) {
+			case EVENT_TYPE.PushObj:
+			Push ();
+			break;
+			default:
+			break;
+		}
+		}
 
 	private void RandomAnifx(){
 		// 자동으로 랜덤 애니 재생 함수.
