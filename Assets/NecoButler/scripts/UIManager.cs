@@ -5,8 +5,6 @@ using UnityEngine.UI;
 
 public class UIManager : MonoBehaviour {
 
-	// UI매니져인데 너무 대충 만들어서 지워도 될정도의 스크립트. 엄청 비효율적.
-
 	private float frame = 1f;
 
 	private Vector3 StartPos;
@@ -20,6 +18,11 @@ public class UIManager : MonoBehaviour {
 	public GameObject thirdObject;
 	//public GameObject allObject;
 
+	private RectTransform botUI_RectTransform;
+	private float botUI_XAis, botUI_YAis;
+
+
+
 	void Update () {
 
 		if (frame >= 1f) {
@@ -32,13 +35,28 @@ public class UIManager : MonoBehaviour {
 
 	}
 
+	public void practicefx(){
+
+		gameObject.GetComponent<RectTransform> ().localPosition = new Vector4 (0, -172.78f, 0,497.78f);
+
+	//	botUI_RectTransform.localPosition =Vector4.zero;
+
+	//	botUI_XAis = GUI.HorizontalSlider (new Rect (0, -162.5f, 0, 162.5f), botUI_XAis, 0, 0);
+		Debug.Log("1");
+			//botUI_RectTransform.anchoredPosition = new Vector3 (0, -162,0);
+	//	botUI_RectTransform.localPosition = new Vector3(0, -30,0);
+		//botUI_RectTransform.rect= new Vector4 (0, -162.5f, 0, 162.5f);
+
+	}
+
+
 	public void UIOpenfx(){
 		//allObject.SetActive (true);
-		frame = 0f;
-		StartPos = transform.position;
-		TargetPos = Vector3.up*6;
-		UIOpenObject.SetActive (false);
-		UICloseObject.SetActive (true);
+	//	frame = 0f;
+		//StartPos = transform.position;
+		//TargetPos = Vector3.up*6;
+		//UIOpenObject.SetActive (false);
+		//UICloseObject.SetActive (true);
 	}
 
 	public void UIClosefx(){

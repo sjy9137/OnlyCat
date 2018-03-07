@@ -123,3 +123,6 @@ C:\Users\YES\Documents\GitHub\OnlyCat\Temp\bin\Debug\UnityEngine.VR.xml
 C:\Users\YES\Documents\GitHub\OnlyCat\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
 C:\Users\YES\Documents\GitHub\OnlyCat\obj\Debug\Assembly-CSharp.dll
 C:\Users\YES\Documents\GitHub\OnlyCat\obj\Debug\Assembly-CSharp.pdb
+C:\Users\YES\Documents\GitHub\OnlyCat\Temp\bin\Debug\Photon3Unity3D.dll
+C:\Users\YES\Documents\GitHub\OnlyCat\Temp\bin\Debug\websocket-sharp.dll
+C:\Users\YES\Documents\GitHub\OnlyCat\Temp\bin\Debug\Assembly-CSharp-firstpass.pdb

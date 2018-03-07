@@ -24,7 +24,7 @@ public class CatBehaviour : PoolableObject {
 		autoAni=GetComponent<Animator> ();
 		RandomAnifx ();
 		// 시작하자마자 애니메이션 재생 하도록 했는데 방법 재고 필요.
-		Debug.Log (Vector3.left);
+//		Debug.Log (Vector3.left);
 		EventManager.Instance.AddListener (EVENT_TYPE.PushObj, this);
 	}
 
