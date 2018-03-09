@@ -37,7 +37,7 @@ public class UIManager : MonoBehaviour {
 
 	public void practicefx(){
 
-		gameObject.GetComponent<RectTransform> ().localPosition = new Vector4 (0, -172.78f, 0,497.78f);
+	//	gameObject.GetComponent<RectTransform> ().localPosition = new Vector4 (0, -172.78f, 0,497.78wf);
 
 	//	botUI_RectTransform.localPosition =Vector4.zero;
 
@@ -51,6 +51,7 @@ public class UIManager : MonoBehaviour {
 
 
 	public void UIOpenfx(){
+		gameObject.GetComponent<RectTransform> ().anchoredPosition3D = new Vector3 (0, 620f, 0);
 		//allObject.SetActive (true);
 	//	frame = 0f;
 		//StartPos = transform.position;

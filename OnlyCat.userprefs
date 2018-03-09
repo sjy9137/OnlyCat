@@ -5,9 +5,9 @@
       <File FileName="Assets\NecoButler\scripts\SceneController.cs" Line="1" Column="1" />
       <File FileName="Assets\NecoButler\scripts\PoolableObject.cs" Line="1" Column="1" />
       <File FileName="Assets\NecoButler\scripts\DataManager.cs" Line="1" Column="1" />
-      <File FileName="Assets\NecoButler\scripts\UIManager.cs" Line="40" Column="95" />
+      <File FileName="Assets\NecoButler\scripts\UIManager.cs" Line="31" Column="3" />
       <File FileName="Assets\NecoButler\scripts\EventManager.cs" Line="1" Column="1" />
-      <File FileName="Assets\NecoButler\scripts\CatBehaviour.cs" Line="49" Column="4" />
+      <File FileName="Assets\NecoButler\scripts\CatBehaviour.cs" Line="1" Column="1" />
       <File FileName="Assets\NecoButler\scripts\StageNeko.cs" Line="1" Column="1" />
       <File FileName="Assets\NecoButler\scripts\ObjectPoolManager.cs" Line="1" Column="1" />
       <File FileName="Assets\NecoButler\scripts\HomeNeko.cs" Line="1" Column="1" />

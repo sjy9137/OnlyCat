@@ -19,7 +19,7 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>Temp\bin\Debug\</OutputPath>
-    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_5_6_1;UNITY_5_6;UNITY_5;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_RUNTIME_NAVMESH_BUILDING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;ENABLE_VIDEO;UNITY_ANDROID;ENABLE_SUBSTANCE;UNITY_ANDROID_API;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;PLATFORM_SUPPORTS_ADS_ID;UNITY_CAN_SHOW_SPLASH_SCREEN;ENABLE_VR;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;NET_2_0_SUBSET;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE;UNITY_HAS_GOOGLEVR</DefineConstants>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_5_6_0;UNITY_5_6;UNITY_5;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_RUNTIME_NAVMESH_BUILDING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;ENABLE_VIDEO;UNITY_ANDROID;ENABLE_SUBSTANCE;UNITY_ANDROID_API;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;PLATFORM_SUPPORTS_ADS_ID;UNITY_CAN_SHOW_SPLASH_SCREEN;ENABLE_VR;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;NET_2_0_SUBSET;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE;UNITY_HAS_GOOGLEVR</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169</NoWarn>
@@ -39,10 +39,10 @@
     <Reference Include="System.Runtime.Serialization" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="UnityEngine">
-      <HintPath>C:/Program Files/unity5.6.1/Editor/Data/Managed/UnityEngine.dll</HintPath>
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor">
-      <HintPath>C:/Program Files/unity5.6.1/Editor/Data/Managed/UnityEditor.dll</HintPath>
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -55,57 +55,6 @@
      <Compile Include="Assets\10. Shader\OutlineEffect\LinkedSet.cs" />
      <Compile Include="Assets\10. Shader\OutlineEffect\Outline.cs" />
      <Compile Include="Assets\10. Shader\OutlineEffect\OutlineEffect.cs" />
-     <Compile Include="Assets\BattleDragon\Colosseum\Dust\ParticleSystems\Scripts\AfterburnerPhysicsForce.cs" />
-     <Compile Include="Assets\BattleDragon\Colosseum\Dust\ParticleSystems\Scripts\ExplosionFireAndDebris.cs" />
-     <Compile Include="Assets\BattleDragon\Colosseum\Dust\ParticleSystems\Scripts\ExplosionPhysicsForce.cs" />
-     <Compile Include="Assets\BattleDragon\Colosseum\Dust\ParticleSystems\Scripts\ExtinguishableParticleSystem.cs" />
-     <Compile Include="Assets\BattleDragon\Colosseum\Dust\ParticleSystems\Scripts\FireLight.cs" />
-     <Compile Include="Assets\BattleDragon\Colosseum\Dust\ParticleSystems\Scripts\Hose.cs" />
-     <Compile Include="Assets\BattleDragon\Colosseum\Dust\ParticleSystems\Scripts\ParticleSystemMultiplier.cs" />
-     <Compile Include="Assets\BattleDragon\Colosseum\Dust\ParticleSystems\Scripts\SmokeParticles.cs" />
-     <Compile Include="Assets\BattleDragon\Colosseum\Dust\ParticleSystems\Scripts\WaterHoseParticles.cs" />
-     <Compile Include="Assets\BattleDragon\Dragons\Scripts\Camera\CameraFollow.cs" />
-     <Compile Include="Assets\BattleDragon\Dragons\Scripts\animator_controller.cs" />
-     <Compile Include="Assets\BattleDragon\Dragons\Scripts\animator_settor.cs" />
-     <Compile Include="Assets\BattleDragon\Dragons\Scripts\player_attack.cs" />
-     <Compile Include="Assets\BattleDragon\Dragons\Scripts\player_movement.cs" />
-     <Compile Include="Assets\BattleDragon\Scripts\CameraController.cs" />
-     <Compile Include="Assets\Low Poly Ultimate Pack\Standard Assets\Effects\ImageEffects\Scripts\Antialiasing.cs" />
-     <Compile Include="Assets\Low Poly Ultimate Pack\Standard Assets\Effects\ImageEffects\Scripts\Bloom.cs" />
-     <Compile Include="Assets\Low Poly Ultimate Pack\Standard Assets\Effects\ImageEffects\Scripts\BloomAndFlares.cs" />
-     <Compile Include="Assets\Low Poly Ultimate Pack\Standard Assets\Effects\ImageEffects\Scripts\BloomOptimized.cs" />
-     <Compile Include="Assets\Low Poly Ultimate Pack\Standard Assets\Effects\ImageEffects\Scripts\Blur.cs" />
-     <Compile Include="Assets\Low Poly Ultimate Pack\Standard Assets\Effects\ImageEffects\Scripts\BlurOptimized.cs" />
-     <Compile Include="Assets\Low Poly Ultimate Pack\Standard Assets\Effects\ImageEffects\Scripts\CameraMotionBlur.cs" />
-     <Compile Include="Assets\Low Poly Ultimate Pack\Standard Assets\Effects\ImageEffects\Scripts\ColorCorrectionCurves.cs" />
-     <Compile Include="Assets\Low Poly Ultimate Pack\Standard Assets\Effects\ImageEffects\Scripts\ColorCorrectionLookup.cs" />
-     <Compile Include="Assets\Low Poly Ultimate Pack\Standard Assets\Effects\ImageEffects\Scripts\ColorCorrectionRamp.cs" />
-     <Compile Include="Assets\Low Poly Ultimate Pack\Standard Assets\Effects\ImageEffects\Scripts\ContrastEnhance.cs" />
-     <Compile Include="Assets\Low Poly Ultimate Pack\Standard Assets\Effects\ImageEffects\Scripts\ContrastStretch.cs" />
-     <Compile Include="Assets\Low Poly Ultimate Pack\Standard Assets\Effects\ImageEffects\Scripts\CreaseShading.cs" />
-     <Compile Include="Assets\Low Poly Ultimate Pack\Standard Assets\Effects\ImageEffects\Scripts\DepthOfField.cs" />
-     <Compile Include="Assets\Low Poly Ultimate Pack\Standard Assets\Effects\ImageEffects\Scripts\DepthOfFieldDeprecated.cs" />
-     <Compile Include="Assets\Low Poly Ultimate Pack\Standard Assets\Effects\ImageEffects\Scripts\EdgeDetection.cs" />
-     <Compile Include="Assets\Low Poly Ultimate Pack\Standard Assets\Effects\ImageEffects\Scripts\Fisheye.cs" />
-     <Compile Include="Assets\Low Poly Ultimate Pack\Standard Assets\Effects\ImageEffects\Scripts\GlobalFog.cs" />
-     <Compile Include="Assets\Low Poly Ultimate Pack\Standard Assets\Effects\ImageEffects\Scripts\Grayscale.cs" />
-     <Compile Include="Assets\Low Poly Ultimate Pack\Standard Assets\Effects\ImageEffects\Scripts\ImageEffectBase.cs" />
-     <Compile Include="Assets\Low Poly Ultimate Pack\Standard Assets\Effects\ImageEffects\Scripts\ImageEffects.cs" />
-     <Compile Include="Assets\Low Poly Ultimate Pack\Standard Assets\Effects\ImageEffects\Scripts\MotionBlur.cs" />
-     <Compile Include="Assets\Low Poly Ultimate Pack\Standard Assets\Effects\ImageEffects\Scripts\NoiseAndGrain.cs" />
-     <Compile Include="Assets\Low Poly Ultimate Pack\Standard Assets\Effects\ImageEffects\Scripts\PostEffectsBase.cs" />
-     <Compile Include="Assets\Low Poly Ultimate Pack\Standard Assets\Effects\ImageEffects\Scripts\PostEffectsHelper.cs" />
-     <Compile Include="Assets\Low Poly Ultimate Pack\Standard Assets\Effects\ImageEffects\Scripts\Quads.cs" />
-     <Compile Include="Assets\Low Poly Ultimate Pack\Standard Assets\Effects\ImageEffects\Scripts\ScreenOverlay.cs" />
-     <Compile Include="Assets\Low Poly Ultimate Pack\Standard Assets\Effects\ImageEffects\Scripts\ScreenSpaceAmbientObscurance.cs" />
-     <Compile Include="Assets\Low Poly Ultimate Pack\Standard Assets\Effects\ImageEffects\Scripts\ScreenSpaceAmbientOcclusion.cs" />
-     <Compile Include="Assets\Low Poly Ultimate Pack\Standard Assets\Effects\ImageEffects\Scripts\SepiaTone.cs" />
-     <Compile Include="Assets\Low Poly Ultimate Pack\Standard Assets\Effects\ImageEffects\Scripts\SunShafts.cs" />
-     <Compile Include="Assets\Low Poly Ultimate Pack\Standard Assets\Effects\ImageEffects\Scripts\TiltShift.cs" />
-     <Compile Include="Assets\Low Poly Ultimate Pack\Standard Assets\Effects\ImageEffects\Scripts\Tonemapping.cs" />
-     <Compile Include="Assets\Low Poly Ultimate Pack\Standard Assets\Effects\ImageEffects\Scripts\Triangles.cs" />
-     <Compile Include="Assets\Low Poly Ultimate Pack\Standard Assets\Effects\ImageEffects\Scripts\VignetteAndChromaticAberration.cs" />
-     <Compile Include="Assets\Low Poly Ultimate Pack\Standard Assets\Environment\Water\Water\Scripts\Water.cs" />
      <Compile Include="Assets\NecoButler\scripts\CatBehaviour.cs" />
      <Compile Include="Assets\NecoButler\scripts\DataManager.cs" />
      <Compile Include="Assets\NecoButler\scripts\EventManager.cs" />
@@ -118,264 +67,54 @@
      <Compile Include="Assets\NecoButler\scripts\SoundManager.cs" />
      <Compile Include="Assets\NecoButler\scripts\UIManager.cs" />
      <Compile Include="Assets\NecoButler\scripts\stageneko.cs" />
-     <Compile Include="Assets\Photon Unity Networking\Demos\Demo2DJumpAndRunWithPhysics\Scripts\Demo2DJumpAndRun.cs" />
-     <Compile Include="Assets\Photon Unity Networking\Demos\Demo2DJumpAndRunWithPhysics\Scripts\JumpAndRunMovement.cs" />
-     <Compile Include="Assets\Photon Unity Networking\Demos\DemoBoxes\ColorPerPlayer.cs" />
-     <Compile Include="Assets\Photon Unity Networking\Demos\DemoBoxes\ColorPerPlayerApply.cs" />
-     <Compile Include="Assets\Photon Unity Networking\Demos\DemoBoxes\DemoBoxesGui.cs" />
-     <Compile Include="Assets\Photon Unity Networking\Demos\DemoBoxes\OnAwakePhysicsSettings.cs" />
-     <Compile Include="Assets\Photon Unity Networking\Demos\DemoBoxes\OnClickFlashRpc.cs" />
-     <Compile Include="Assets\Photon Unity Networking\Demos\DemoBoxes\OnDoubleclickDestroy.cs" />
-     <Compile Include="Assets\Photon Unity Networking\Demos\DemoChangeOwner\ClickAndDrag.cs" />
-     <Compile Include="Assets\Photon Unity Networking\Demos\DemoChangeOwner\DemoOwnershipGui.cs" />
-     <Compile Include="Assets\Photon Unity Networking\Demos\DemoChangeOwner\HighlightOwnedGameObj.cs" />
-     <Compile Include="Assets\Photon Unity Networking\Demos\DemoChangeOwner\InstantiateCube.cs" />
-     <Compile Include="Assets\Photon Unity Networking\Demos\DemoChangeOwner\MaterialPerOwner.cs" />
-     <Compile Include="Assets\Photon Unity Networking\Demos\DemoChangeOwner\OnClickDisableObj.cs" />
-     <Compile Include="Assets\Photon Unity Networking\Demos\DemoChangeOwner\OnClickRequestOwnership.cs" />
-     <Compile Include="Assets\Photon Unity Networking\Demos\DemoChangeOwner\OnClickRightDestroy.cs" />
-     <Compile Include="Assets\Photon Unity Networking\Demos\DemoChangeOwner\ShowInfoOfPlayer.cs" />
-     <Compile Include="Assets\Photon Unity Networking\Demos\DemoChat\ChannelSelector.cs" />
-     <Compile Include="Assets\Photon Unity Networking\Demos\DemoChat\ChatAppIdCheckerUI.cs" />
-     <Compile Include="Assets\Photon Unity Networking\Demos\DemoChat\ChatGui.cs" />
-     <Compile Include="Assets\Photon Unity Networking\Demos\DemoChat\FriendItem.cs" />
-     <Compile Include="Assets\Photon Unity Networking\Demos\DemoChat\IgnoreUiRaycastWhenInactive.cs" />
-     <Compile Include="Assets\Photon Unity Networking\Demos\DemoChat\NamePickGui.cs" />
-     <Compile Include="Assets\Photon Unity Networking\Demos\DemoFriendsAndCustomAuth\GUICustomAuth.cs" />
-     <Compile Include="Assets\Photon Unity Networking\Demos\DemoFriendsAndCustomAuth\GUIFriendFinding.cs" />
-     <Compile Include="Assets\Photon Unity Networking\Demos\DemoFriendsAndCustomAuth\GUIFriendsInRoom.cs" />
-     <Compile Include="Assets\Photon Unity Networking\Demos\DemoFriendsAndCustomAuth\OnClickCallMethod.cs" />
-     <Compile Include="Assets\Photon Unity Networking\Demos\DemoHub\HubGui.cs" />
-     <Compile Include="Assets\Photon Unity Networking\Demos\DemoHub\MoveCam.cs" />
-     <Compile Include="Assets\Photon Unity Networking\Demos\DemoHub\Scripts\DemoHubManager.cs" />
-     <Compile Include="Assets\Photon Unity Networking\Demos\DemoHub\Scripts\ToDemoHubButton.cs" />
-     <Compile Include="Assets\Photon Unity Networking\Demos\DemoHub\ToHubButton.cs" />
-     <Compile Include="Assets\Photon Unity Networking\Demos\DemoMecanim\Scripts\DemoMecanimGUI.cs" />
-     <Compile Include="Assets\Photon Unity Networking\Demos\DemoPickup\Scripts\MessageOverlay.cs" />
-     <Compile Include="Assets\Photon Unity Networking\Demos\DemoPickup\Scripts\OnCollideSwitchTeam.cs" />
-     <Compile Include="Assets\Photon Unity Networking\Demos\DemoPickup\Scripts\OnPickedUpScript.cs" />
-     <Compile Include="Assets\Photon Unity Networking\Demos\DemoPickup\Scripts\PickupCamera.cs" />
-     <Compile Include="Assets\Photon Unity Networking\Demos\DemoPickup\Scripts\PickupController.cs" />
-     <Compile Include="Assets\Photon Unity Networking\Demos\DemoPickup\Scripts\PickupDemoGui.cs" />
-     <Compile Include="Assets\Photon Unity Networking\Demos\DemoPickup\Scripts\PickupTriggerForward.cs" />
-     <Compile Include="Assets\Photon Unity Networking\Demos\DemoRPGMovement\Scripts\DemoRPGMovement.cs" />
-     <Compile Include="Assets\Photon Unity Networking\Demos\DemoRPGMovement\Scripts\RPGCamera.cs" />
-     <Compile Include="Assets\Photon Unity Networking\Demos\DemoRPGMovement\Scripts\RPGMovement.cs" />
-     <Compile Include="Assets\Photon Unity Networking\Demos\DemoRockPaperScissors\Scripts\RpsCore.cs" />
-     <Compile Include="Assets\Photon Unity Networking\Demos\DemoRockPaperScissors\Scripts\RpsDebug.cs" />
-     <Compile Include="Assets\Photon Unity Networking\Demos\DemoRockPaperScissors\Scripts\RpsDemoConnect.cs" />
-     <Compile Include="Assets\Photon Unity Networking\Demos\DemoSynchronization\CubeExtra.cs" />
-     <Compile Include="Assets\Photon Unity Networking\Demos\DemoSynchronization\CubeInter.cs" />
-     <Compile Include="Assets\Photon Unity Networking\Demos\DemoSynchronization\CubeLerp.cs" />
-     <Compile Include="Assets\Photon Unity Networking\Demos\DemoSynchronization\DragToMove.cs" />
-     <Compile Include="Assets\Photon Unity Networking\Demos\DemoSynchronization\IELdemo.cs" />
-     <Compile Include="Assets\Photon Unity Networking\Demos\DemoWorker\Scripts\Game\Player\ThirdPersonCamera.cs" />
-     <Compile Include="Assets\Photon Unity Networking\Demos\DemoWorker\Scripts\Game\Player\ThirdPersonController.cs" />
-     <Compile Include="Assets\Photon Unity Networking\Demos\DemoWorker\Scripts\Game\Player\ThirdPersonNetwork.cs" />
-     <Compile Include="Assets\Photon Unity Networking\Demos\DemoWorker\Scripts\WorkerInGame.cs" />
-     <Compile Include="Assets\Photon Unity Networking\Demos\DemoWorker\Scripts\WorkerMenu.cs" />
-     <Compile Include="Assets\Photon Unity Networking\Demos\PunBasics-Tutorial\Scripts\CameraWork.cs" />
-     <Compile Include="Assets\Photon Unity Networking\Demos\PunBasics-Tutorial\Scripts\GameManager.cs" />
-     <Compile Include="Assets\Photon Unity Networking\Demos\PunBasics-Tutorial\Scripts\Launcher.cs" />
-     <Compile Include="Assets\Photon Unity Networking\Demos\PunBasics-Tutorial\Scripts\LoaderAnime.cs" />
-     <Compile Include="Assets\Photon Unity Networking\Demos\PunBasics-Tutorial\Scripts\PlayerAnimatorManager.cs" />
-     <Compile Include="Assets\Photon Unity Networking\Demos\PunBasics-Tutorial\Scripts\PlayerManager.cs" />
-     <Compile Include="Assets\Photon Unity Networking\Demos\PunBasics-Tutorial\Scripts\PlayerNameInputField.cs" />
-     <Compile Include="Assets\Photon Unity Networking\Demos\PunBasics-Tutorial\Scripts\PlayerUI.cs" />
-     <Compile Include="Assets\Photon Unity Networking\Demos\Shared Assets\Scripts\IdleRunJump.cs" />
-     <Compile Include="Assets\Photon Unity Networking\Demos\Shared Assets\Scripts\PlayerDiamond.cs" />
-     <Compile Include="Assets\Photon Unity Networking\Demos\Shared Assets\Scripts\PlayerVariables.cs" />
-     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\CustomTypes.cs" />
-     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\Enums.cs" />
-     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\Extensions.cs" />
-     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\FriendInfo.cs" />
-     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\GizmoType.cs" />
-     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\LoadbalancingPeer.cs" />
-     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\NetworkingPeer.cs" />
-     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonClasses.cs" />
-     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonHandler.cs" />
-     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonLagSimulationGui.cs" />
-     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonNetwork.cs" />
-     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonPlayer.cs" />
-     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonStatsGui.cs" />
-     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonStreamQueue.cs" />
-     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\PhotonView.cs" />
-     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\PingCloudRegions.cs" />
-     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\RPC.cs" />
-     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\Room.cs" />
-     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\RoomInfo.cs" />
-     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\ServerSettings.cs" />
-     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\SocketUdp.cs" />
-     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\SocketWebTcp.cs" />
-     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\Views\PhotonAnimatorView.cs" />
-     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\Views\PhotonRigidbody2DView.cs" />
-     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\Views\PhotonRigidbodyView.cs" />
-     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\Views\PhotonTransformView.cs" />
-     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\Views\PhotonTransformViewPositionControl.cs" />
-     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\Views\PhotonTransformViewPositionModel.cs" />
-     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\Views\PhotonTransformViewRotationControl.cs" />
-     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\Views\PhotonTransformViewRotationModel.cs" />
-     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\Views\PhotonTransformViewScaleControl.cs" />
-     <Compile Include="Assets\Photon Unity Networking\Plugins\PhotonNetwork\Views\PhotonTransformViewScaleModel.cs" />
-     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\ConnectAndJoinRandom.cs" />
-     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\CullArea.cs" />
-     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\InRoomChat.cs" />
-     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\InputToEvent.cs" />
-     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\ManualPhotonViewAllocator.cs" />
-     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\MarcoPolo-Tutorial\AudioRpc.cs" />
-     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\MarcoPolo-Tutorial\ClickDetector.cs" />
-     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\MarcoPolo-Tutorial\GameLogic.cs" />
-     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\MarcoPolo-Tutorial\Monstergame\Resources\Scripts\myThirdPersonController.cs" />
-     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\MarcoPolo-Tutorial\NetworkCharacter.cs" />
-     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\MarcoPolo-Tutorial\OnClickLoadSomething.cs" />
-     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\MarcoPolo-Tutorial\RandomMatchmaker.cs" />
-     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\MoveByKeys.cs" />
-     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\NetworkCullingHandler.cs" />
-     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\OnClickDestroy.cs" />
-     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\OnClickInstantiate.cs" />
-     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\OnClickLoadSomething.cs" />
-     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\OnJoinedInstantiate.cs" />
-     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\OnStartDelete.cs" />
-     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\PhotonPlayer\PlayerRoomIndexing.cs" />
-     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\PickupItem.cs" />
-     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\PickupItemSimple.cs" />
-     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\PickupItemSyncer.cs" />
-     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\PointedAtGameObjectInfo.cs" />
-     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\PunPlayerScores.cs" />
-     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\PunTeams.cs" />
-     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\PunTurnManager.cs" />
-     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\QuitOnEscapeOrBack.cs" />
-     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\ShowStatusWhenConnecting.cs" />
-     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\SmoothSyncMovement.cs" />
-     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\SupportLogger.cs" />
-     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\TimeKeeper.cs" />
-     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\UI\ButtonInsideScrollList.cs" />
-     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\UI\TextButtonTransition.cs" />
-     <Compile Include="Assets\Photon Unity Networking\UtilityScripts\UI\TextToggleIsOnTransition.cs" />
-     <Compile Include="Assets\PhotonChatApi\ChatChannel.cs" />
-     <Compile Include="Assets\PhotonChatApi\ChatClient.cs" />
-     <Compile Include="Assets\PhotonChatApi\ChatDisconnectCause.cs" />
-     <Compile Include="Assets\PhotonChatApi\ChatEventCode.cs" />
-     <Compile Include="Assets\PhotonChatApi\ChatOperationCode.cs" />
-     <Compile Include="Assets\PhotonChatApi\ChatParameterCode.cs" />
-     <Compile Include="Assets\PhotonChatApi\ChatPeer.cs" />
-     <Compile Include="Assets\PhotonChatApi\ChatState.cs" />
-     <Compile Include="Assets\PhotonChatApi\ChatUserStatus.cs" />
-     <Compile Include="Assets\PhotonChatApi\IChatClientListener.cs" />
-     <None Include="Assets\Low Poly Ultimate Pack\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendOneOne.shader" />
-     <None Include="Assets\Low Poly Ultimate Pack\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\SeparableWeightedBlurDof34.shader" />
+     <Compile Include="Assets\TestAni.cs" />
      <None Include="Assets\10. Shader\JMO Assets\MatCap Shaders\Shaders\MatCap_TextureAdd_Bumped.shader" />
-     <None Include="Assets\Low Poly Ultimate Pack\Standard Assets\Effects\ImageEffects\Shaders\SunShaftsComposite.shader" />
-     <None Include="Assets\Low Poly Ultimate Pack\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrectionCurves.shader" />
-     <None Include="Assets\Low Poly Ultimate Pack\Standard Assets\Effects\ImageEffects\Shaders\ScreenSpaceAmbientObscurance.shader" />
-     <None Include="Assets\Low Poly Ultimate Pack\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\NFAA.shader" />
      <None Include="Assets\10. Shader\OutlineEffect\Resources\OutlineShader.shader" />
-     <None Include="Assets\Low Poly Ultimate Pack\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\TiltShiftHdrLensBlur.shader" />
-     <None Include="Assets\Low Poly Ultimate Pack\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\DepthOfFieldScatter.shader" />
-     <None Include="Assets\Low Poly Ultimate Pack\Standard Assets\Effects\ImageEffects\Shaders\MotionBlur.shader" />
-     <None Include="Assets\Low Poly Ultimate Pack\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\MobileBloom.shader" />
      <None Include="Assets\10. Shader\JMO Assets\MatCap Shaders\Shaders\MatCap_TextureMult_Bumped.shader" />
      <None Include="Assets\10. Shader\OutlineEffect\Resources\OutlineBufferShader.shader" />
-     <None Include="Assets\Low Poly Ultimate Pack\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\MinMaxReduction.shader" />
-     <None Include="Assets\Low Poly Ultimate Pack\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\SSAA.shader" />
-     <None Include="Assets\Low Poly Ultimate Pack\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\DepthOfFieldDX11.shader" />
-     <None Include="Assets\Low Poly Ultimate Pack\Standard Assets\Effects\ImageEffects\Shaders\ContrastComposite.shader" />
-     <None Include="Assets\Low Poly Ultimate Pack\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAAPreset3.shader" />
-     <None Include="Assets\Low Poly Ultimate Pack\Standard Assets\Effects\ImageEffects\Shaders\FisheyeShader.shader" />
-     <None Include="Assets\Low Poly Ultimate Pack\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\Apply.shader" />
      <None Include="Assets\10. Shader\BrokenVector\LowPolyShaders\README.txt" />
      <None Include="Assets\10. Shader\JMO Assets\Toony Colors\!ToonyColors Readme.txt" />
-     <None Include="Assets\Low Poly Ultimate Pack\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\DepthOfField34.shader" />
-     <None Include="Assets\Low Poly Ultimate Pack\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\MobileBlur.shader" />
-     <None Include="Assets\Low Poly Ultimate Pack\Standard Assets\Effects\ImageEffects\Shaders\SSAOShader.shader" />
      <None Include="Assets\10. Shader\JMO Assets\MatCap Shaders\Shaders\MatCap_Lit.shader" />
      <None Include="Assets\10. Shader\JMO Assets\MatCap Shaders\Shaders\MatCap_Plain_Bumped.shader" />
-     <None Include="Assets\Low Poly Ultimate Pack\Standard Assets\Effects\ImageEffects\Shaders\ConvertDepth.shader" />
      <None Include="Assets\10. Shader\TSF\Shaders\TSFOutline.shader" />
-     <None Include="Assets\Low Poly Ultimate Pack\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrectionCurvesSimple.shader" />
-     <None Include="Assets\Low Poly Ultimate Pack\Standard Assets\Effects\ImageEffects\Shaders\CreaseApply.shader" />
      <None Include="Assets\10. Shader\JMO Assets\MatCap Shaders\Shaders\MatCap_Plain_AdditiveZ.shader" />
      <None Include="Assets\10. Shader\JMO Assets\!JMO Assets Readme.txt" />
-     <None Include="Assets\Low Poly Ultimate Pack\Standard Assets\Effects\ImageEffects\Shaders\ChromaticAberrationShader.shader" />
      <None Include="Assets\10. Shader\TSF\Shaders\TSF.shader" />
-     <None Include="Assets\Low Poly Ultimate Pack\Standard Assets\Effects\ImageEffects\Shaders\GlobalFog.shader" />
-     <None Include="Assets\Low Poly Ultimate Pack\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\Luminance.shader" />
-     <None Include="Assets\Low Poly Ultimate Pack\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrectionSelective.shader" />
-     <None Include="Assets\Low Poly Ultimate Pack\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\Bokeh34.shader" />
      <None Include="Assets\10. Shader\JMO Assets\Toony Colors\Shaders 2.0\Rim Outline.shader" />
-     <None Include="Assets\Low Poly Ultimate Pack\Standard Assets\Effects\ImageEffects\Shaders\CameraMotionBlurDX11.shader" />
      <None Include="Assets\10. Shader\JMO Assets\MatCap Shaders\Shaders\MatCap_Plain.shader" />
-     <None Include="Assets\Low Poly Ultimate Pack\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\SeparableBlurPlus.shader" />
      <None Include="Assets\10. Shader\JMO Assets\Toony Colors\Shaders 2.0\Rim Lighting.shader" />
-     <None Include="Assets\Low Poly Ultimate Pack\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\MultiPassHollywoodFlares.shader" />
-     <None Include="Assets\Low Poly Ultimate Pack\Standard Assets\Effects\ImageEffects\Shaders\BlurEffectConeTaps.shader" />
      <None Include="Assets\10. Shader\OutlineEffect\Resources\OutlineBufferCullOffShader.shader" />
      <None Include="Assets\10. Shader\JMO Assets\MatCap Shaders\Shaders\MatCap_Plain_Additive.shader" />
-     <None Include="Assets\Low Poly Ultimate Pack\Standard Assets\Effects\ImageEffects\Shaders\CameraMotionBlur.shader" />
-     <None Include="Assets\Low Poly Ultimate Pack\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\DLAA.shader" />
-     <None Include="Assets\Low Poly Ultimate Pack\Standard Assets\Effects\ImageEffects\Shaders\NoiseAndGrainDX11.shader" />
      <None Include="Assets\10. Shader\JMO Assets\Toony Colors\Shaders 2.0\Regular.shader" />
      <None Include="Assets\10. Shader\JMO Assets\MatCap Shaders\Shaders\MatCap_TextureMult.shader" />
-     <None Include="Assets\Low Poly Ultimate Pack\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BrightPassFilter2.shader" />
-     <None Include="Assets\Low Poly Ultimate Pack\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\SeparableBlur.shader" />
-     <None Include="Assets\Low Poly Ultimate Pack\Standard Assets\Effects\ImageEffects\Shaders\MotionBlurClear.shader" />
      <None Include="Assets\10. Shader\BrokenVector\LowPolyShaders\Shaders\LowPolyPBRShader.shader" />
-     <None Include="Assets\Low Poly Ultimate Pack\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrectionEffect.shader" />
-     <None Include="Assets\Low Poly Ultimate Pack\Standard Assets\Effects\ImageEffects\Shaders\GrayscaleEffect.shader" />
-     <None Include="Assets\Low Poly Ultimate Pack\Standard Assets\Effects\ImageEffects\Shaders\SepiaToneEffect.shader" />
-     <None Include="Assets\Low Poly Ultimate Pack\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\Adaptation.shader" />
-     <None Include="Assets\Low Poly Ultimate Pack\Standard Assets\Effects\ImageEffects\Shaders\NoiseAndGrain.shader" />
-     <None Include="Assets\Low Poly Ultimate Pack\Standard Assets\Effects\ImageEffects\Shaders\VignettingShader.shader" />
-     <None Include="Assets\Low Poly Ultimate Pack\Standard Assets\Effects\ImageEffects\Shaders\Tonemapper.shader" />
      <None Include="Assets\10. Shader\BrokenVector\LowPolyShaders\Shaders\LowPolyUnlitShader.shader" />
-     <None Include="Assets\Low Poly Ultimate Pack\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BrightPassFilter.shader" />
-     <None Include="Assets\Low Poly Ultimate Pack\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAA2.shader" />
-     <None Include="Assets\Low Poly Ultimate Pack\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrection3DLut.shader" />
-     <None Include="Assets\Low Poly Ultimate Pack\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\LensFlareCreate.shader" />
      <None Include="Assets\10. Shader\JMO Assets\MatCap Shaders\Shaders\MatCap_TextureAdd.shader" />
-     <None Include="Assets\Low Poly Ultimate Pack\Standard Assets\Effects\ImageEffects\Shaders\EdgeDetectNormals.shader" />
-     <None Include="Assets\Low Poly Ultimate Pack\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\Blend.shader" />
-     <None Include="Assets\Low Poly Ultimate Pack\Standard Assets\Effects\ImageEffects\Shaders\BlendModesOverlay.shader" />
-     <None Include="Assets\Low Poly Ultimate Pack\Standard Assets\Effects\ImageEffects\Shaders\SimpleClear.shader" />
      <None Include="Assets\10. Shader\JMO Assets\MatCap Shaders\Textures\MaCrea\MaCrea.txt" />
      <None Include="Assets\10. Shader\JMO Assets\Toony Colors\Shaders 2.0\Rim Alpha.shader" />
-     <None Include="Assets\Low Poly Ultimate Pack\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAA3Console.shader" />
      <None Include="Assets\10. Shader\JMO Assets\MatCap Shaders\Textures\BenSimonds\_Textures Readme.txt" />
-     <None Include="Assets\Low Poly Ultimate Pack\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAAPreset2.shader" />
-     <None Include="Assets\Low Poly Ultimate Pack\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlurAndFlares.shader" />
      <None Include="Assets\10. Shader\JMO Assets\MatCap Shaders\_MatCap Shaders Readme.txt" />
-     <None Include="Assets\Low Poly Ultimate Pack\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendForBloom.shader" />
  <Reference Include="UnityEngine.UI">
- <HintPath>C:/Program Files/unity5.6.1/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Networking">
- <HintPath>C:/Program Files/unity5.6.1/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.TestRunner">
- <HintPath>C:/Program Files/unity5.6.1/Editor/Data/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll</HintPath>
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll</HintPath>
  </Reference>
  <Reference Include="nunit.framework">
- <HintPath>C:/Program Files/unity5.6.1/Editor/Data/UnityExtensions/Unity/TestRunner/nunit.framework.dll</HintPath>
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/nunit.framework.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Analytics">
- <HintPath>C:/Program Files/unity5.6.1/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.HoloLens">
- <HintPath>C:/Program Files/unity5.6.1/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.VR">
- <HintPath>C:/Program Files/unity5.6.1/Editor/Data/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
  </Reference>
- <Reference Include="Photon3Unity3D">
- <HintPath>C:/Users/YES/Documents/GitHub/OnlyCat/Assets/Plugins/Photon3Unity3D.dll</HintPath>
- </Reference>
- <Reference Include="websocket-sharp">
- <HintPath>C:/Users/YES/Documents/GitHub/OnlyCat/Assets/Plugins/WebSocket/websocket-sharp.dll</HintPath>
- </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{36A04430-9F15-AF0B-ED25-3E37ECD5C8E6}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

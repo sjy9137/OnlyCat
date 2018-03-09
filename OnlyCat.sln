@@ -1,8 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlyCat", "Assembly-CSharp-firstpass.csproj", "{36A04430-9F15-AF0B-ED25-3E37ECD5C8E6}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlyCat", "Assembly-CSharp.csproj", "{0D34A43F-392B-4678-C1EF-958FEDEC05E5}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlyCat", "Assembly-CSharp-Editor.csproj", "{48518F15-7E32-8EBA-4CD4-1035FDE0FB08}"
@@ -13,10 +11,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{36A04430-9F15-AF0B-ED25-3E37ECD5C8E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{36A04430-9F15-AF0B-ED25-3E37ECD5C8E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{36A04430-9F15-AF0B-ED25-3E37ECD5C8E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{36A04430-9F15-AF0B-ED25-3E37ECD5C8E6}.Release|Any CPU.Build.0 = Release|Any CPU
 		{0D34A43F-392B-4678-C1EF-958FEDEC05E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{0D34A43F-392B-4678-C1EF-958FEDEC05E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0D34A43F-392B-4678-C1EF-958FEDEC05E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
