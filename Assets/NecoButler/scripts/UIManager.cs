@@ -51,7 +51,7 @@ public class UIManager : MonoBehaviour {
 
 
 	public void UIOpenfx(){
-		gameObject.GetComponent<RectTransform> ().anchoredPosition3D = new Vector3 (0, 620f, 0);
+		gameObject.GetComponent<RectTransform> ().anchoredPosition3D = new Vector3 (0, 133f, 0);
 		//allObject.SetActive (true);
 	//	frame = 0f;
 		//StartPos = transform.position;

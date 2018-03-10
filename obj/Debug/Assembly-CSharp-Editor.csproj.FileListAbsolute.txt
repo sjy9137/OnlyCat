@@ -2,9 +2,7 @@ C:\Users\YES\Documents\GitHub\OnlyCat\Temp\bin\Debug\Assembly-CSharp-Editor.dll
 C:\Users\YES\Documents\GitHub\OnlyCat\Temp\bin\Debug\Assembly-CSharp-Editor.pdb
 C:\Users\YES\Documents\GitHub\OnlyCat\Temp\bin\Debug\JMOAssets.dll
 C:\Users\YES\Documents\GitHub\OnlyCat\Temp\bin\Debug\JMOAssets_MatCapWelcome.dll
-C:\Users\YES\Documents\GitHub\OnlyCat\Temp\bin\Debug\Newtonsoft.Json.dll
 C:\Users\YES\Documents\GitHub\OnlyCat\Temp\bin\Debug\nunit.framework.dll
-C:\Users\YES\Documents\GitHub\OnlyCat\Temp\bin\Debug\Photon3Unity3D.dll
 C:\Users\YES\Documents\GitHub\OnlyCat\Temp\bin\Debug\UnityEditor.Advertisements.dll
 C:\Users\YES\Documents\GitHub\OnlyCat\Temp\bin\Debug\UnityEditor.Analytics.dll
 C:\Users\YES\Documents\GitHub\OnlyCat\Temp\bin\Debug\UnityEditor.Android.Extensions.dll
@@ -25,7 +23,6 @@ C:\Users\YES\Documents\GitHub\OnlyCat\Temp\bin\Debug\UnityEngine.Networking.dll
 C:\Users\YES\Documents\GitHub\OnlyCat\Temp\bin\Debug\UnityEngine.TestRunner.dll
 C:\Users\YES\Documents\GitHub\OnlyCat\Temp\bin\Debug\UnityEngine.UI.dll
 C:\Users\YES\Documents\GitHub\OnlyCat\Temp\bin\Debug\UnityEngine.VR.dll
-C:\Users\YES\Documents\GitHub\OnlyCat\Temp\bin\Debug\websocket-sharp.dll
 C:\Users\YES\Documents\GitHub\OnlyCat\Temp\bin\Debug\Mono.Cecil.dll
 C:\Users\YES\Documents\GitHub\OnlyCat\Temp\bin\Debug\Unity.SerializationLogic.dll
 C:\Users\YES\Documents\GitHub\OnlyCat\Temp\bin\Debug\Unity.DataContract.dll
@@ -35,7 +32,6 @@ C:\Users\YES\Documents\GitHub\OnlyCat\Temp\bin\Debug\UnityEditor.iOS.Extensions.
 C:\Users\YES\Documents\GitHub\OnlyCat\Temp\bin\Debug\Mono.Cecil.Mdb.dll
 C:\Users\YES\Documents\GitHub\OnlyCat\Temp\bin\Debug\Unity.CecilTools.dll
 C:\Users\YES\Documents\GitHub\OnlyCat\Temp\bin\Debug\Mono.Cecil.Pdb.dll
-C:\Users\YES\Documents\GitHub\OnlyCat\Temp\bin\Debug\Assembly-CSharp-firstpass.pdb
 C:\Users\YES\Documents\GitHub\OnlyCat\Temp\bin\Debug\Assembly-CSharp.pdb
 C:\Users\YES\Documents\GitHub\OnlyCat\Temp\bin\Debug\UnityEngine.xml
 C:\Users\YES\Documents\GitHub\OnlyCat\Temp\bin\Debug\UnityEditor.xml
