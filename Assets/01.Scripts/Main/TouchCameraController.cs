@@ -4,9 +4,10 @@ using UnityEngine;
 
 public class TouchCameraController : MonoBehaviour {
 
-
+	/*
 
 	public Transform target;     //추적할 타겟 게임 오브젝트의 Transform 변수
+
 	public float dist = 10.0f;     // 카메라와의 일정 거리
 	public float height = 5.0f;     // 카메라의 높이 설정
 	public float dampRotate = 5.0f;     // 부드러운 회전을 위한 변수
@@ -27,23 +28,28 @@ public class TouchCameraController : MonoBehaviour {
 	{
 		Vector3 PositionInfo = tr.position - target.position;     // 주인공과 카메라 사이의 백터정보
 		PositionInfo = Vector3.Normalize (PositionInfo);     // 화면 확대가 너무 급격히 일어나지 않도록 정규화
-
-		target.transform.Rotate (0, Input.GetAxis ("Horizontal")* TurnSpeed, 0);      //마우스 입력이 감지되면 오브젝트 회전
+	
+		//target.transform.Rotate (0, Input.GetAxis ("Horizontal")* TurnSpeed, 0);      //마우스 입력이 감지되면 오브젝트 회전
 		transform.RotateAround (target.position, Vector3.right, Input.GetAxis ("Mouse Y")* TurnSpeed);     //마우스 Y(Pitch) 움직임 인지하여 화면 회전
+		transform.RotateAround(target.position,Vector3.up,Input.GetAxis("Mouse X")*TurnSpeed);
 		tr.position = tr.position - (PositionInfo * Input.GetAxis ("Mouse ScrollWheel")* TurnSpeed);     // 마우스 휠로 화면확대 축고
 	}
 
+
+	public void CameraBtnFx(){
+		transform.position = new Vector3 (0.54f, 23.99f, -47.17f);
+		transform.rotation =  Quaternion.Euler(27.886f, 0, 0);
+
+	}
 
 
 }
 
 
 
+	*/
 
-
-
-
-	/*
+	
 
 
 // 모바일 버전
@@ -82,8 +88,10 @@ public class TouchCameraController : MonoBehaviour {
 				if (Input.GetTouch (0).phase == TouchPhase.Moved) {
 					PrevPoint = Input.GetTouch (0).position - Input.GetTouch (0).deltaPosition;
 
-					charTarget.transform.Rotate (0, -(Input.GetTouch (0).position.x - PrevPoint.x), 0);
-					cameratarget.transform.RotateAround (charTarget.position, Vector3.right, -(Input.GetTouch (0).position.y - PrevPoint.y)*0.5f);
+					//charTarget.transform.Rotate (0, -(Input.GetTouch (0).position.x - PrevPoint.x), 0);
+					//transform.RotateAround (target.position, Vector3.right, Input.GetAxis ("Mouse Y")* TurnSpeed)
+					transform.RotateAround (charTarget.position, Vector3.right, -(Input.GetTouch (0).position.y - PrevPoint.y)*0.5f);
+					transform.RotateAround (charTarget.position, Vector3.up, -(Input.GetTouch (0).position.x - PrevPoint.x)*0.5f);
 
 					PrevPoint = Input.GetTouch (0).position;
 				}
@@ -106,6 +114,15 @@ public class TouchCameraController : MonoBehaviour {
 				tr.position = tr.position - -(PositionInfo * deltaMagnitudediff * orthoZoomSpeed);
 			}
 		}
-	}*/
+	}
 
-	
+	public void CameraBtnFx(){
+		transform.position = new Vector3 (0.54f, 23.99f, -47.17f);
+		transform.rotation =  Quaternion.Euler(27.886f, 0, 0);
+
+	}
+
+
+
+
+}

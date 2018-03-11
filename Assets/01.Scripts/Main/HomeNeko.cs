@@ -216,8 +216,6 @@ public class HomeNeko : MonoBehaviour {
 				mapimg_sprite = Resources.Load<Sprite> ("main/" + "107");
 				mapimg_ig.sprite = mapimg_sprite;
 			}
-
-
 		}
 
 		public void touchmybody(){
@@ -278,6 +276,44 @@ public class HomeNeko : MonoBehaviour {
 	public void SelectStage2Btn(){
 		StageNumber = 2;
 	}
+	/*
+	Touch initTouch;
+	bool swipedbool = false;
+
+	private void SwipedFx(){
+		//모바일 스와이프 인식 함수.
+		foreach (Touch p in Input.touches) {
+			if (p.phase == TouchPhase.Began) {
+				initTouch = p;
+			} else if (p.phase == TouchPhase.Moved && !swipedbool) {
+				float xMoved = initTouch.position.x - p.position.x;
+				float yMoved = initTouch.position.y - p.position.y;
+				float distace = Mathf.Sqrt ((xMoved * xMoved) + (yMoved * yMoved));
+				bool swipedLeft = Mathf.Abs (xMoved) > Mathf.Abs (yMoved);
+
+				if (distace > 50f) {
+					if (swipedLeft && xMoved > 0) {
+						LeftBtn ();
+					} else if (swipedLeft && xMoved < 0) {
+						RightBtn ();
+					} else if (swipedLeft == false && yMoved > 0) {
+						//DownBtn ();
+					} else if (swipedLeft == false && yMoved < 0) {
+						UpBtn ();
+					}
+					swipedbool = true;
+				}
+			} else if (p.phase == TouchPhase.Ended) {
+				initTouch = new Touch ();
+				swipedbool = false;
+			}
+
+		}
+	}
+*/
+
+
+
 
 
 		IEnumerator TouchNekoCoinCoroutine(){

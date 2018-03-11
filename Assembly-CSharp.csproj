@@ -52,6 +52,7 @@
      <Compile Include="Assets\01.Scripts\Common\PoolableObject.cs" />
      <Compile Include="Assets\01.Scripts\Common\SceneController.cs" />
      <Compile Include="Assets\01.Scripts\Common\SoundManager.cs" />
+     <Compile Include="Assets\01.Scripts\Common\anianiani.cs" />
      <Compile Include="Assets\01.Scripts\Hunting\stageneko.cs" />
      <Compile Include="Assets\01.Scripts\Main\CatBehaviour.cs" />
      <Compile Include="Assets\01.Scripts\Main\DataManager.cs" />

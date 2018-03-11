@@ -51,20 +51,21 @@ public class UIManager : MonoBehaviour {
 
 
 	public void UIOpenfx(){
-		gameObject.GetComponent<RectTransform> ().anchoredPosition3D = new Vector3 (0, 133f, 0);
+		gameObject.GetComponent<RectTransform> ().anchoredPosition3D = new Vector3 (0, 600f, 0);
 		//allObject.SetActive (true);
 	//	frame = 0f;
 		//StartPos = transform.position;
 		//TargetPos = Vector3.up*6;
-		//UIOpenObject.SetActive (false);
-		//UICloseObject.SetActive (true);
+		UIOpenObject.SetActive (false);
+		UICloseObject.SetActive (true);
 	}
 
 	public void UIClosefx(){
 	//	allObject.SetActive (false);
-		frame = 0f;
-		StartPos = transform.position;
-		TargetPos = Vector3.zero;
+	//	frame = 0f;
+	//	StartPos = transform.position;
+	//	TargetPos = Vector3.zero;
+		gameObject.GetComponent<RectTransform> ().anchoredPosition3D = new Vector3 (0, 0, 0);
 		UIOpenObject.SetActive (true);
 		UICloseObject.SetActive (false);
 	}
