@@ -46,33 +46,33 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\10. Shader\JMO Assets\Toony Colors\Editor\TCF_MaterialInspector.cs" />
-     <None Include="Assets\10. Shader\JMO Assets\MatCap Shaders\Shaders\MatCap_TextureAdd_Bumped.shader" />
-     <None Include="Assets\10. Shader\OutlineEffect\Resources\OutlineShader.shader" />
-     <None Include="Assets\10. Shader\JMO Assets\MatCap Shaders\Shaders\MatCap_TextureMult_Bumped.shader" />
-     <None Include="Assets\10. Shader\OutlineEffect\Resources\OutlineBufferShader.shader" />
-     <None Include="Assets\10. Shader\BrokenVector\LowPolyShaders\README.txt" />
-     <None Include="Assets\10. Shader\JMO Assets\Toony Colors\!ToonyColors Readme.txt" />
-     <None Include="Assets\10. Shader\JMO Assets\MatCap Shaders\Shaders\MatCap_Lit.shader" />
-     <None Include="Assets\10. Shader\JMO Assets\MatCap Shaders\Shaders\MatCap_Plain_Bumped.shader" />
-     <None Include="Assets\10. Shader\TSF\Shaders\TSFOutline.shader" />
-     <None Include="Assets\10. Shader\JMO Assets\MatCap Shaders\Shaders\MatCap_Plain_AdditiveZ.shader" />
-     <None Include="Assets\10. Shader\JMO Assets\!JMO Assets Readme.txt" />
-     <None Include="Assets\10. Shader\TSF\Shaders\TSF.shader" />
-     <None Include="Assets\10. Shader\JMO Assets\Toony Colors\Shaders 2.0\Rim Outline.shader" />
-     <None Include="Assets\10. Shader\JMO Assets\MatCap Shaders\Shaders\MatCap_Plain.shader" />
-     <None Include="Assets\10. Shader\JMO Assets\Toony Colors\Shaders 2.0\Rim Lighting.shader" />
-     <None Include="Assets\10. Shader\OutlineEffect\Resources\OutlineBufferCullOffShader.shader" />
-     <None Include="Assets\10. Shader\JMO Assets\MatCap Shaders\Shaders\MatCap_Plain_Additive.shader" />
-     <None Include="Assets\10. Shader\JMO Assets\Toony Colors\Shaders 2.0\Regular.shader" />
-     <None Include="Assets\10. Shader\JMO Assets\MatCap Shaders\Shaders\MatCap_TextureMult.shader" />
-     <None Include="Assets\10. Shader\BrokenVector\LowPolyShaders\Shaders\LowPolyPBRShader.shader" />
-     <None Include="Assets\10. Shader\BrokenVector\LowPolyShaders\Shaders\LowPolyUnlitShader.shader" />
-     <None Include="Assets\10. Shader\JMO Assets\MatCap Shaders\Shaders\MatCap_TextureAdd.shader" />
-     <None Include="Assets\10. Shader\JMO Assets\MatCap Shaders\Textures\MaCrea\MaCrea.txt" />
-     <None Include="Assets\10. Shader\JMO Assets\Toony Colors\Shaders 2.0\Rim Alpha.shader" />
-     <None Include="Assets\10. Shader\JMO Assets\MatCap Shaders\Textures\BenSimonds\_Textures Readme.txt" />
-     <None Include="Assets\10. Shader\JMO Assets\MatCap Shaders\_MatCap Shaders Readme.txt" />
+     <Compile Include="Assets\07. Shader\JMO Assets\Toony Colors\Editor\TCF_MaterialInspector.cs" />
+     <None Include="Assets\07. Shader\JMO Assets\MatCap Shaders\Shaders\MatCap_TextureAdd_Bumped.shader" />
+     <None Include="Assets\07. Shader\OutlineEffect\Resources\OutlineShader.shader" />
+     <None Include="Assets\07. Shader\JMO Assets\MatCap Shaders\Shaders\MatCap_TextureMult_Bumped.shader" />
+     <None Include="Assets\07. Shader\OutlineEffect\Resources\OutlineBufferShader.shader" />
+     <None Include="Assets\07. Shader\BrokenVector\LowPolyShaders\README.txt" />
+     <None Include="Assets\07. Shader\JMO Assets\Toony Colors\!ToonyColors Readme.txt" />
+     <None Include="Assets\07. Shader\JMO Assets\MatCap Shaders\Shaders\MatCap_Lit.shader" />
+     <None Include="Assets\07. Shader\JMO Assets\MatCap Shaders\Shaders\MatCap_Plain_Bumped.shader" />
+     <None Include="Assets\07. Shader\TSF\Shaders\TSFOutline.shader" />
+     <None Include="Assets\07. Shader\JMO Assets\MatCap Shaders\Shaders\MatCap_Plain_AdditiveZ.shader" />
+     <None Include="Assets\07. Shader\JMO Assets\!JMO Assets Readme.txt" />
+     <None Include="Assets\07. Shader\TSF\Shaders\TSF.shader" />
+     <None Include="Assets\07. Shader\JMO Assets\Toony Colors\Shaders 2.0\Rim Outline.shader" />
+     <None Include="Assets\07. Shader\JMO Assets\MatCap Shaders\Shaders\MatCap_Plain.shader" />
+     <None Include="Assets\07. Shader\JMO Assets\Toony Colors\Shaders 2.0\Rim Lighting.shader" />
+     <None Include="Assets\07. Shader\OutlineEffect\Resources\OutlineBufferCullOffShader.shader" />
+     <None Include="Assets\07. Shader\JMO Assets\MatCap Shaders\Shaders\MatCap_Plain_Additive.shader" />
+     <None Include="Assets\07. Shader\JMO Assets\Toony Colors\Shaders 2.0\Regular.shader" />
+     <None Include="Assets\07. Shader\JMO Assets\MatCap Shaders\Shaders\MatCap_TextureMult.shader" />
+     <None Include="Assets\07. Shader\BrokenVector\LowPolyShaders\Shaders\LowPolyPBRShader.shader" />
+     <None Include="Assets\07. Shader\BrokenVector\LowPolyShaders\Shaders\LowPolyUnlitShader.shader" />
+     <None Include="Assets\07. Shader\JMO Assets\MatCap Shaders\Shaders\MatCap_TextureAdd.shader" />
+     <None Include="Assets\07. Shader\JMO Assets\MatCap Shaders\Textures\MaCrea\MaCrea.txt" />
+     <None Include="Assets\07. Shader\JMO Assets\Toony Colors\Shaders 2.0\Rim Alpha.shader" />
+     <None Include="Assets\07. Shader\JMO Assets\MatCap Shaders\Textures\BenSimonds\_Textures Readme.txt" />
+     <None Include="Assets\07. Shader\JMO Assets\MatCap Shaders\_MatCap Shaders Readme.txt" />
  <Reference Include="UnityEditor.Advertisements">
  <HintPath>C:/Program Files/unity5.6.1/Editor/Data/UnityExtensions/Unity/Advertisements/Editor/UnityEditor.Advertisements.dll</HintPath>
  </Reference>
@@ -130,11 +130,11 @@
  <Reference Include="UnityEditor.WindowsStandalone.Extensions">
  <HintPath>C:/Program Files/unity5.6.1/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
  </Reference>
- <Reference Include="JMOAssets">
- <HintPath>C:/Users/YES/Documents/GitHub/OnlyCat/Assets/10. Shader/JMO Assets/Editor/JMOAssets.dll</HintPath>
- </Reference>
  <Reference Include="JMOAssets_MatCapWelcome">
- <HintPath>C:/Users/YES/Documents/GitHub/OnlyCat/Assets/10. Shader/JMO Assets/Editor/JMOAssets_MatCapWelcome.dll</HintPath>
+ <HintPath>C:/Users/YES/Documents/GitHub/OnlyCat/Assets/07. Shader/JMO Assets/Editor/JMOAssets_MatCapWelcome.dll</HintPath>
+ </Reference>
+ <Reference Include="JMOAssets">
+ <HintPath>C:/Users/YES/Documents/GitHub/OnlyCat/Assets/07. Shader/JMO Assets/Editor/JMOAssets.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>
