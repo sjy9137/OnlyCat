@@ -74,6 +74,7 @@
      <Compile Include="Assets\07. Shader\OutlineEffect\LinkedSet.cs" />
      <Compile Include="Assets\07. Shader\OutlineEffect\Outline.cs" />
      <Compile Include="Assets\07. Shader\OutlineEffect\OutlineEffect.cs" />
+     <Compile Include="Assets\09.Download\BrokenVector\LowPolySurvivalEssentials\Example\Scripts\AnimatedFire.cs" />
      <None Include="Assets\07. Shader\JMO Assets\MatCap Shaders\Shaders\MatCap_TextureAdd_Bumped.shader" />
      <None Include="Assets\07. Shader\OutlineEffect\Resources\OutlineShader.shader" />
      <None Include="Assets\07. Shader\JMO Assets\MatCap Shaders\Shaders\MatCap_TextureMult_Bumped.shader" />

@@ -1,13 +1,14 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\01.Scripts\Main\DataManager.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\01.Scripts\Main\CatBehaviour.cs">
     <Files>
       <File FileName="Assets\01.Scripts\Main\TouchCameraController.cs" Line="1" Column="1" />
       <File FileName="Assets\01.Scripts\Main\HomeNeko.cs" Line="1" Column="1" />
       <File FileName="Assets\01.Scripts\Hunting\stageneko.cs" Line="1" Column="1" />
       <File FileName="Assets\01.Scripts\Main\UIManager.cs" Line="1" Column="1" />
       <File FileName="Assets\01.Scripts\Common\anianiani.cs" Line="1" Column="1" />
-      <File FileName="Assets\01.Scripts\Main\DataManager.cs" Line="23" Column="5" />
+      <File FileName="Assets\01.Scripts\Main\DataManager.cs" Line="1" Column="1" />
+      <File FileName="Assets\01.Scripts\Main\CatBehaviour.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
